@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        @keyframes mymove {
+  0%   {top: 0px; left: 0px; background: red;list-style-type: none; }
+  25%  {top: 0px; left: 100px; background: blue; width: 300px; height: 300px; font-size: larger; list-style-type: disc; }
+  50%  {top: 100px; left: 100px; background: yellow; width: 400px; height: 400px; font-size: x-large;list-style-type:decimal; }
+  75%  {top: 100px; left: 0px; background: green; width:500px; height: 500px; font-size: xx-large;list-style-type:square;}
+   100% {top: 0px; left: 0px; background: red; width:500px; height: 500px; font-size: xx-large;list-style-type:lower-roman;}
+} 
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    animation-name: mymove;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    margin-left: 70px;
+    margin-top: 60px;
+    
+}
+    </style>
+</head>
+<body>
+    <ul class="box1">
+     
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Login</li>
+    
+    </ul>
+</body>
+</html>
