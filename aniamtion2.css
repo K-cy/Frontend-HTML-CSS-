@@ -1,0 +1,35 @@
+.ball{
+    height: 50px;
+    width:50px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top:350px;
+    left:0;
+
+    
+}
+.box{
+    background-image: url(grass.png);
+    height: 100vh;
+    width:100%;
+
+}
+@keyframes bounce{
+    0%{background-color: aqua;transform: translateY(0); }
+    10%{background-color: blue; transform: translateY(200px); position: absolute;left:100px;}
+    20%{background-color:orange ; transform: translateY(300px); position: absolute;left:200px;}
+    30%{background-color:red ; transform: translateY(200px); position: absolute;left:300px;}
+    40%{background-color: violet; transform: translateY(0); position: absolute;left: 400px;}
+60%{background-color:green; transform: translateY(200px); position: absolute;left:500px;}
+70%{background-color:white; transform: translateY(300px); position: absolute;left:600px;}
+80%{background-color: black; transform: translateY(200px); position: absolute;left:700px;}
+90%{background-color: pink; transform: translateY(0); position: absolute;left:800px;}
+100%{background-color: greenyellow; transform: translateY(200px); position: absolute;left:1000px;}
+
+}
